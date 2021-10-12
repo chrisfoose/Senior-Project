@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CREATE DATABASE example;
 
 use example;
@@ -22,4 +23,30 @@ email VARCHAR(50) NOT NULL,
 
 age INT(3), 
 
+=======
+CREATE DATABASE example;
+
+use example;
+
+CREATE TABLE people (
+
+idPeople INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+
+firstname VARCHAR(30) NOT NULL,
+
+lastname VARCHAR(30) NOT NULL,
+
+address VARCHAR(50) NOT NULL,
+
+city VARCHAR(30) NOT NULL,
+
+state VARCHAR(30) NOT NULL,
+
+zip VARCHAR(30) NOT NULL,
+
+email VARCHAR(50) NOT NULL,
+
+age INT(3), 
+
+>>>>>>> 2137a63106319fa1f2a1f66fbc6cb04df0b9287a
 date TIMESTAMP );

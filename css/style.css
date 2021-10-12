@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 label {
 
 display: block;
@@ -19,4 +20,27 @@ padding: 5px;
 
 border-bottom: 1px solid #aaa;
 
+=======
+label {
+
+display: block;
+
+margin: 5px 0;
+
+}
+table {
+
+border-collapse: collapse;
+
+border-spacing: 0;
+
+}
+
+td, th {
+
+padding: 5px;
+
+border-bottom: 1px solid #aaa;
+
+>>>>>>> 2137a63106319fa1f2a1f66fbc6cb04df0b9287a
 }
